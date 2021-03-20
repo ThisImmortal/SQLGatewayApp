@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	background-color: #fdfff5;
+}
+
+#persons {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#persons td, #persons th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#persons tr: nth-child (even){
+	background-color: #f2f2f2;
+}
+
+#persons tr: hover {
+	background-color: #ddd;
+}
+
+#persons th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: red;
+	color: white;
+}

@@ -14,7 +14,7 @@ public class SQLUtil {
 		
 		int columnCount = metaData.getColumnCount();
 		
-		htmlTable.append("<table>");
+		htmlTable.append("<table id=\"persons\">");
 		
 		htmlTable.append("<tr>");
 		for(int i = 1; i<=columnCount; i++) {
